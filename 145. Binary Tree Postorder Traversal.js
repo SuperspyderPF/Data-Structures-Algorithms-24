@@ -1,0 +1,1 @@
+var postorderTraversal = root => root?postorderTraversal(root.left).concat(postorderTraversal(root.right)).concat([root.val]):[]

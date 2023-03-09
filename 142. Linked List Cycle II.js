@@ -1,0 +1,1 @@
+detectCycle=h=>{let x=new Set();while(h){if(x.has(h))return h;x.add(h);h=h.next}return null}
